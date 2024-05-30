@@ -1,0 +1,8 @@
+footer {
+    background: orange;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
