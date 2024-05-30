@@ -1,0 +1,85 @@
+#menu-bar{
+	display: none;
+}
+
+header label{
+	float: right;
+	font-size: 28px;
+	margin: 6px 0;
+	cursor: pointer;
+}
+
+.menu{
+	position: absolute;
+	top: 50px;
+	left: 0;
+
+	width: 100%;
+	height: 100vh;
+	background: #2b6c16;
+
+	transition: all .5s;
+	transform: translateX(-100%);
+}
+
+.menu a{
+	display: block;
+	color: #fff;
+	height: 50px;
+	text-decoration: none;
+	padding: 15px;
+	border: 1px solid #fff;
+}
+
+
+.menu a:hover{
+	background: rgba(255,255,255,.3);
+}
+
+
+#menu-bar:checked ~.menu{
+	transform: translateX(0%);
+}
+
+/*-----------Responsive-----------*/
+
+/*Dispositivo Movil*/
+@media(min-width: 420px){
+	.menu{
+		background:rgba(51,51,51,.9);
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+/*Tablets*/
+@media(min-width: 768px){
+	.menu{
+		background:rgba(51,51,51,.9);
+		width: 100%;
+		height: auto;
+	}
+}
+
+/*Escritorio*/
+@media(min-width: 1024px){
+	.menu{
+		position: static;
+		width: auto;
+		height: auto;
+		transform: translateX(0%);
+		float: right;
+		display: flex;
+		background:#2b6c16;
+	}
+
+	.menu a{
+		border: none;
+	}
+	
+	header label{
+		display: none;
+	}
+
+}

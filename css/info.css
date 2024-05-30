@@ -1,0 +1,50 @@
+
+#info{
+	background: #0c1650;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+}
+
+#info h2{
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+#info .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.info-mascota{
+	margin:20px;
+}
+
+.info-mascota img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+}
+/*-----------Responsive-----------*/
+/*Dispositivo Movil*/
+@media(min-width: 480px){
+	.info-mascota{
+		width: 40%;
+	}
+}
+
+/*Tablets*/
+@media(min-width: 768px){
+	.info-mascota{
+		width: 40%;
+	}
+}
+
+/*Escritorio*/
+@media(min-width: 1024px){
+	.info-mascota{
+		width: auto;
+	}
+}

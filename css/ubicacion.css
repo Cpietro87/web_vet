@@ -1,0 +1,30 @@
+#ubicacion{
+	background: #fff;
+	color: #355084;
+	text-align: center;
+	padding: 50px;
+}
+
+#ubicacion h3{
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#ubicacion .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: right;
+	padding: 35px;
+}
+
+#ubicacion .contenedor iframe{
+	width: 45%;
+	border: 5px solid #ccc;
+}
+
+#ubicacion .contenedor p{
+	padding: 40px;
+	width: 50%;
+	text-align: left;
+}
