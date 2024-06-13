@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero Kanban</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="kanban-board">
+        <div class="column" id="por-hacer">
+            <h2>Por Hacer</h2>
+            <div class="task" id="task1" draggable="true">Tarea Nº1</div>
+            <div class="task" id="task2" draggable="true">Tarea Nº2</div>
+        </div>
+        <div class="column" id="haciendo">
+            <h2>Haciendo</h2>
+        </div>
+        <div class="column" id="hecho">
+            <h2>Hecho</h2>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
