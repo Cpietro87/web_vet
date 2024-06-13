@@ -1,0 +1,19 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.conteiner {
+    margin-bottom: 40%;
+    margin: o auto;
+}
+
+canvas {
+    max-width: 100%;
+}
